@@ -9,6 +9,14 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "codegenConfig": {
+    "name": "ExceptionTesting",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.testing.nativeexception"
+    }
+  },
   "dependencies": {
     "react": "19.1.0",
     "react-native": "0.81.4",
@@ -39,3 +47,4 @@
     "node": ">=20"
   }
 }
+
